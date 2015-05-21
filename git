@@ -1,0 +1,50 @@
+# Verify git
+$ git --version
+
+# Set your name
+$ git config --global user.name "<Your Name>"
+
+# Set your email
+$ git config --global user.email <Your Email>
+
+# Set your GitHub user name
+$ get config --global user.username <GitHub User Name>
+
+# Create a new Git repository in the project folder
+$ git init
+
+# Check repo status
+$ git status
+
+# Add a file changes to commit
+$ git add <File Name>
+
+# Add all file changes
+$ git add .
+
+# View changes to file
+$ git diff
+
+# Commit changes
+$ git commit -m "<Commit message>"
+
+# Common files in open source projects
+1) readme
+2) license
+3) .gitignore
+
+# Connect local repo and remote repo
+$ git remote add <Remote Repo Nick Name> <URL of GitHub Repo>
+
+# In Windows, a remote repo named 'origin' is automatically created
+# You just need to set the URL of GitHub Repo to 'origin'
+$ git remote set-url origin <URL of GitHub Repo>
+
+# Send local branch named 'master' to remote repo on GitHub named 'origin'
+$ git push origin master
+
+# Retrieve remote repo into a local branch
+$ git pull origin master
+
+# View remote connections
+$ git remote -v
