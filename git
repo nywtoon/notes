@@ -48,3 +48,9 @@ $ git pull origin master
 
 # View remote connections
 $ git remote -v
+
+# Clone remote repo onto your computer (Make sure not to clone inside of another Git repo folder)
+$ git clone <URL of GitHub Repo>
+
+# If remote repo is a fork and you need to pull in changes from original repo named 'upstream'
+$ git remote add upstream <URL of GitHub Repo>
